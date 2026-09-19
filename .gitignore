@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+engine/*.egg-info/
+app/node_modules/
+app/dist/
+app/src-tauri/gen/
+app/src-tauri/target/
+workspace/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+
+# Private or production artifacts are never part of this repository.
+dataset/
+datasets/
+models/
+projects/
+training_materials/
+*.dwg
+*.npz
+*.onnx
+*.pt
+*.pth
